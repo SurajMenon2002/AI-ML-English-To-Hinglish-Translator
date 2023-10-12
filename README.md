@@ -35,7 +35,6 @@ You can easily customize the program for your specific translation needs by modi
 
 COMMENTS:
 Proper comments are provided to understand the working and functionality of the Program.
-Example
 
 CONTRIBUTORS:
 Suraj Menon - jrmenon31@gmail.com
