@@ -21,19 +21,37 @@ Open the Python script using your preferred text editor or IDE.
 
 You can customize the following components:
 
-SENTENCES : 
+##Sentences 
 List of English sentences you want to translate.
 english_words_to_mix: List of English words you want to mix into the Hinglish translation.
 hindi_to_english: Dictionary of Hindi to English word translations.
 Run the Python script to generate Hinglish translations of the provided sentences.
 
 
-CUSTOMIZATION :
+##Customization
 You can easily customize the program for your specific translation needs by modifying the sentences, and hindi_to_english to replace a desired set of words dictionaries in the code.
 
 COMMENTS:
 Proper comments are provided to understand the working and functionality of the Program.
+Example
+Here's an example of how the program works:
 
+python
+Copy code
+sentences = [
+    "Definitely share your feedback in the comment section.",
+    "So even if it's a big video, I will clearly mention all the products.",
+    "I was waiting for my bag."
+]
+
+hindi_to_english = {
+    # Add your Hindi to English word translations here.
+}
+
+# Translate and print the mixed Hinglish versions
+for sentence in sentences:
+    hinglish_translation = translate_to_hinglish(sentence, hindi_to_english)
+    print(hinglish_translation)
 
 
 CONTRIBUTORS:
