@@ -21,14 +21,16 @@ Open the Python script using your preferred text editor or IDE.
 
 You can customize the following components:
 
-##Sentences 
+## Sentences 
+
 List of English sentences you want to translate.
 english_words_to_mix: List of English words you want to mix into the Hinglish translation.
 hindi_to_english: Dictionary of Hindi to English word translations.
 Run the Python script to generate Hinglish translations of the provided sentences.
 
 
-##Customization
+## Customization
+
 You can easily customize the program for your specific translation needs by modifying the sentences, and hindi_to_english to replace a desired set of words dictionaries in the code.
 
 COMMENTS:
