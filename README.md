@@ -36,25 +36,6 @@ You can easily customize the program for your specific translation needs by modi
 COMMENTS:
 Proper comments are provided to understand the working and functionality of the Program.
 Example
-Here's an example of how the program works:
-
-python
-Copy code
-sentences = [
-    "Definitely share your feedback in the comment section.",
-    "So even if it's a big video, I will clearly mention all the products.",
-    "I was waiting for my bag."
-]
-
-hindi_to_english = {
-    # Add your Hindi to English word translations here.
-}
-
-# Translate and print the mixed Hinglish versions
-for sentence in sentences:
-    hinglish_translation = translate_to_hinglish(sentence, hindi_to_english)
-    print(hinglish_translation)
-
 
 CONTRIBUTORS:
 Suraj Menon - jrmenon31@gmail.com
